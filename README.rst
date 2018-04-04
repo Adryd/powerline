@@ -12,15 +12,11 @@ IPython, Awesome, i3 and Qtile.**
 * `Support forum`_ (powerline-support@googlegroups.com)
 * `Development discussion`_ (powerline-dev@googlegroups.com)
 
-.. image:: https://api.travis-ci.org/powerline/powerline.svg?branch=develop
-   :target: `travis-build-status`_
-   :alt: Build status
-
 .. _travis-build-status: https://travis-ci.org/powerline/powerline
 .. _`Support forum`: https://groups.google.com/forum/#!forum/powerline-support
 .. _`Development discussion`: https://groups.google.com/forum/#!forum/powerline-dev
 
-Changes made by Adryd:
+**Changes made by Adryd:**
 
 * Accidentally pressed the reformat button and it changed everything and diff is bad at whitespace changes.
 * Changed the way powerline window segments render in tmux.
