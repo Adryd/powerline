@@ -1,7 +1,7 @@
 {
 	"dividers": {
 		"left": {
-			"hard": "▌",
+			"hard": "▌d",
 			"soft": "│"
 		},
 		"right": {
@@ -31,9 +31,9 @@
 			"args": {
 				"state_symbols": {
 					"fallback": "♫",
-					"play":     "▶",
-					"pause":    "▮▮",
-					"stop":     "■"
+					"play": "▶",
+					"pause": "▮▮",
+					"stop": "■"
 				}
 			}
 		},
@@ -71,18 +71,18 @@
 		"powerline.segments.common.wthr.weather": {
 			"args": {
 				"icons": {
-					"day":           "D",
-					"blustery":      "W",
-					"rainy":         "R",
-					"cloudy":        "c",
-					"snowy":         "*",
-					"stormy":        "S",
-					"foggy":         "f",
-					"sunny":         "s",
-					"night":         "N",
-					"windy":         "w",
+					"day": "D",
+					"blustery": "W",
+					"rainy": "R",
+					"cloudy": "c",
+					"snowy": "*",
+					"stormy": "S",
+					"foggy": "f",
+					"sunny": "s",
+					"night": "N",
+					"windy": "w",
 					"not_available": "-",
-					"unknown":       "!"
+					"unknown": "!"
 				}
 			}
 		},
@@ -95,28 +95,28 @@
 		"powerline.segments.vim.mode": {
 			"args": {
 				"override": {
-					"n":  "NML",
+					"n": "NML",
 					"no": "NOP",
-					"v":  "VIS",
-					"V":  "VLN",
+					"v": "VIS",
+					"V": "VLN",
 					"^V": "VBL",
-					"s":  "SEL",
-					"S":  "SLN",
+					"s": "SEL",
+					"S": "SLN",
 					"^S": "SBL",
-					"i":  "INS",
+					"i": "INS",
 					"ic": "I-C",
 					"ix": "I^X",
-					"R":  "REP",
+					"R": "REP",
 					"Rv": "VRP",
 					"Rc": "R-C",
 					"Rx": "R^X",
-					"c":  "CMD",
+					"c": "CMD",
 					"cv": "VEX",
 					"ce": " EX",
-					"r":  "PRT",
+					"r": "PRT",
 					"rm": "MOR",
 					"r?": "CON",
-					"!":  " SH"
+					"!": " SH"
 				}
 			}
 		},

@@ -9,6 +9,16 @@
 			"soft": " "
 		}
 	},
+	"dividers_nospace": {
+		"left": {
+			"hard": "",
+			"soft": ""
+		},
+		"right": {
+			"hard": "",
+			"soft": ""
+		}
+	},
 	"spaces": 1,
 	"segment_data": {
 		"branch": {
@@ -30,9 +40,9 @@
 			"args": {
 				"state_symbols": {
 					"fallback": "♫",
-					"play":     "▶",
-					"pause":    "▮▮",
-					"stop":     "■"
+					"play": "▶",
+					"pause": "▮▮",
+					"stop": "■"
 				}
 			}
 		},
@@ -54,8 +64,8 @@
 			"args": {
 				"full_heart": "♥",
 				"empty_heart": "♥",
-				"online": "⚡︎",
-				"offline": " "
+				"online": "🔌︎",
+				"offline": "🔋"
 			}
 		},
 		"powerline.segments.common.sys.uptime": {
@@ -70,18 +80,18 @@
 		"powerline.segments.common.wthr.weather": {
 			"args": {
 				"icons": {
-					"day":           "DAY",
-					"blustery":      "WIND",
-					"rainy":         "RAIN",
-					"cloudy":        "CLOUDS",
-					"snowy":         "SNOW",
-					"stormy":        "STORM",
-					"foggy":         "FOG",
-					"sunny":         "SUN",
-					"night":         "NIGHT",
-					"windy":         "WINDY",
+					"day": "DAY",
+					"blustery": "WIND",
+					"rainy": "RAIN",
+					"cloudy": "CLOUDS",
+					"snowy": "SNOW",
+					"stormy": "STORM",
+					"foggy": "FOG",
+					"sunny": "SUN",
+					"night": "NIGHT",
+					"windy": "WINDY",
 					"not_available": "NA",
-					"unknown":       "UKN"
+					"unknown": "UKN"
 				}
 			}
 		},
@@ -94,28 +104,28 @@
 		"powerline.segments.vim.mode": {
 			"args": {
 				"override": {
-					"n":  "NORMAL",
+					"n": "NORMAL",
 					"no": "N·OPER",
-					"v":  "VISUAL",
-					"V":  "V·LINE",
+					"v": "VISUAL",
+					"V": "V·LINE",
 					"^V": "V·BLCK",
-					"s":  "SELECT",
-					"S":  "S·LINE",
+					"s": "SELECT",
+					"S": "S·LINE",
 					"^S": "S·BLCK",
-					"i":  "INSERT",
+					"i": "INSERT",
 					"ic": "I·COMP",
 					"ix": "I·C-X ",
-					"R":  "RPLACE",
+					"R": "RPLACE",
 					"Rv": "V·RPLC",
 					"Rc": "R·COMP",
 					"Rx": "R·C-X ",
-					"c":  "COMMND",
+					"c": "COMMND",
 					"cv": "VIM·EX",
 					"ce": "NRM·EX",
-					"r":  "PROMPT",
+					"r": "PROMPT",
 					"rm": "-MORE-",
 					"r?": "CNFIRM",
-					"!":  "!SHELL"
+					"!": "!SHELL"
 				}
 			}
 		},

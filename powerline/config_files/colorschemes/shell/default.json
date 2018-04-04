@@ -1,15 +1,78 @@
 {
 	"name": "Default color scheme for shell prompts",
 	"groups": {
-		"hostname":         { "fg": "brightyellow", "bg": "mediumorange", "attrs": [] },
-		"environment":      { "fg": "white", "bg": "darkestgreen", "attrs": [] },
-		"mode":             { "fg": "darkestgreen", "bg": "brightgreen", "attrs": ["bold"] },
-		"attached_clients": { "fg": "white", "bg": "darkestgreen", "attrs": [] }
+		"hostname": {
+			"fg": "white",
+			"bg": "gray2",
+			"attrs": []
+		},
+		"environment": {
+			"fg": "white",
+			"bg": "darkestgreen",
+			"attrs": []
+		},
+		"mode": {
+			"fg": "textBlack",
+			"bg": "brightgreen",
+			"attrs": ["bold"]
+		},
+		"user": {
+			"fg": "white",
+			"bg": "gray3",
+			"attrs": ["normal"]
+		},
+		"superuser": {
+			"fg": "yellow",
+			"bg": "gray3",
+			"attrs": [
+				"normal"
+			]
+		},
+		"attached_clients": {
+			"fg": "white",
+			"bg": "darkestgreen",
+			"attrs": []
+		},
+		"jobnum": {
+			"fg": "textBlack",
+			"bg": "mediumcyan"
+		},
+		"exit_success": {
+			"fg": "textBlack",
+			"bg": "green"
+		},
+		"exit_moderate": {
+			"fg": "textBlack",
+			"bg": "yellow"
+		},
+		"exit_fail": {
+			"fg": "white",
+			"bg": "red"
+		},
+		"cwd": {
+			"fg": "textBlack",
+			"bg": "blue",
+			"attrs": []
+		},
+		"cwd:current_folder": {
+			"fg": "textBlack",
+			"bg": "blue",
+			"attrs": []
+		},
+		"cwd:divider": {
+			"fg": "textBlack",
+			"bg": "blue",
+			"attrs": []
+		}
 	},
 	"mode_translations": {
 		"vicmd": {
 			"groups": {
-				"mode": {"fg": "darkestcyan", "bg": "white", "attrs": ["bold"]}
+				"mode": {
+					"fg": "darkestcyan",
+					"bg": "white",
+					"attrs": ["bold"]
+				}
 			}
 		}
 	}

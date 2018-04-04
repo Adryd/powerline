@@ -1,7 +1,7 @@
 {
 	"dividers": {
 		"left": {
-			"hard": " ",
+			"hard": " c",
 			"soft": " "
 		},
 		"right": {
@@ -30,9 +30,9 @@
 			"args": {
 				"state_symbols": {
 					"fallback": "♫",
-					"play":     "▶",
-					"pause":    "▮▮",
-					"stop":     "■"
+					"play": "▶",
+					"pause": "▮▮",
+					"stop": "■"
 				}
 			}
 		},
@@ -70,18 +70,18 @@
 		"powerline.segments.common.wthr.weather": {
 			"args": {
 				"icons": {
-					"day":           "〇",
-					"blustery":      "⚑",
-					"rainy":         "☔",
-					"cloudy":        "☁",
-					"snowy":         "❅",
-					"stormy":        "☈",
-					"foggy":         "≡",
-					"sunny":         "☼",
-					"night":         "☾",
-					"windy":         "☴",
+					"day": "〇",
+					"blustery": "⚑",
+					"rainy": "☔",
+					"cloudy": "☁",
+					"snowy": "❅",
+					"stormy": "☈",
+					"foggy": "≡",
+					"sunny": "☼",
+					"night": "☾",
+					"windy": "☴",
 					"not_available": "�",
-					"unknown":       "⚠"
+					"unknown": "⚠"
 				}
 			}
 		},
@@ -94,28 +94,28 @@
 		"powerline.segments.vim.mode": {
 			"args": {
 				"override": {
-					"n":  "NORMAL",
+					"n": "NORMAL",
 					"no": "N·OPER",
-					"v":  "VISUAL",
-					"V":  "V·LINE",
+					"v": "VISUAL",
+					"V": "V·LINE",
 					"^V": "V·BLCK",
-					"s":  "SELECT",
-					"S":  "S·LINE",
+					"s": "SELECT",
+					"S": "S·LINE",
 					"^S": "S·BLCK",
-					"i":  "INSERT",
+					"i": "INSERT",
 					"ic": "I·COMP",
 					"ix": "I·C-X ",
-					"R":  "RPLACE",
+					"R": "RPLACE",
 					"Rv": "V·RPLC",
 					"Rc": "R·COMP",
 					"Rx": "R·C-X ",
-					"c":  "COMMND",
+					"c": "COMMND",
 					"cv": "VIM·EX",
 					"ce": "NRM·EX",
-					"r":  "PROMPT",
+					"r": "PROMPT",
 					"rm": "-MORE-",
 					"r?": "CNFIRM",
-					"!":  "!SHELL"
+					"!": "!SHELL"
 				}
 			}
 		},
