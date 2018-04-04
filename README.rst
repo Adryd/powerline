@@ -21,9 +21,9 @@ IPython, Awesome, i3 and Qtile.**
 .. _`Development discussion`: https://groups.google.com/forum/#!forum/powerline-dev
 
 Changes made by Adryd:
-* Accidentally pressed the reformat button and it changed everything and diff is bad at whitespace changes
-* Changed the way powerline window segments render in tmux
-* Replaced color scheme with a modified version of Monokai and some personal customizations
+*  Accidentally pressed the reformat button and it changed everything and diff is bad at whitespace changes
+*  Changed the way powerline window segments render in tmux
+*  Replaced color scheme with a modified version of Monokai and some personal customizations
 
 **Made for use alongside https://github.com/adryd/dotfiles**
 
